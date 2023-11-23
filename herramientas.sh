@@ -11,3 +11,4 @@ chmod +x kerbrute
 ln -s /opt/kerbrute $(echo $(echo $PATH | cut -d ":" -f1))
 apt install -y bloodhound
 apt install neo4j
+apt install bloodhound-python
